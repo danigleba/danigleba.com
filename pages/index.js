@@ -5,7 +5,7 @@ import { FaSquareXTwitter } from "react-icons/fa6"
 import { FaLinkedin } from "react-icons/fa"
 
 export default function Index() {
-  const specificDate = new Date("2024-01-08")
+  const specificDate = new Date("2024-01-15")
   const currentDate = new Date()
   const timeDiff = currentDate - specificDate
   const weeksPassed = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 7))
