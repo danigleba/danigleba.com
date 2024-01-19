@@ -57,6 +57,10 @@ export default function Index() {
             <div><a>1. </a></div>
             <div className="pb-3"> <a href="https://feedby.danigleba.com" target="_blank" className="font-medium underline">Feedby</a>: Filter user feedback from your comment section.</div>
           </div>
+          <div className="flex items-start gap-2 pl-24">
+            <div><a>2. </a></div>
+            <div className="pb-3"> <a target="_blank" className="font-medium">Plato</a>: Find a startup mentor and get to $10k MRR ASAP.</div>
+          </div>
           <div className="pt-12 space-y-2">
             <a href="mailto:daniglebapuig@gmail.com">daniglebapuig@gmail.com</a>
             <div className="flex gap-2">
