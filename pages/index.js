@@ -36,34 +36,42 @@ export default function Index() {
       </Head>
       <main className="flex justify-center items-start text-[#222222] mt-12 mx-6">
         <div className="w-full md:w-2/5 font-light text-base">
-          <h2 className="font-semibold text-4xl pb-3">Dani Gleba</h2>
+          <h2 className="font-semibold text-4xl pb-6">Dani Gleba</h2>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Dropped out of a CS degree.</div>
-          </div>
-          <div className="flex items-start gap-4">
-            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Worked as a full-stack developer at a startup making AI chatbots for E-commerce.</div>
+            <div className="pb-3">Started coding video games at 13.</div>
           </div>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> On a mission to ship a startup a week until I find Product-Market-Fit.</div>
+            <div className="pb-3"> Built <a href="https://kualify.es" target="_blank" className="font-medium underline">kualify.es</a> in high school.</div>
           </div>
-          <div className="flex items-start gap-4 pl-12">
-            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full border border-[#222222]"></div></div>
-            <div className="pb-3"> I've been working for {weeksPassed} weeks and have shipped:</div>
+          <div className="flex items-start gap-4">
+            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
+            <div className="pb-3"> Dropped out of a CS degree at UPC-FIB.</div>
           </div>
-          <div className="flex items-start gap-2 pl-24">
+          <div className="flex items-start gap-4">
+            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
+            <div className="pb-3"> Worked as a full-stack developer at <a href="https://scentcraft.ai" target="_blank" className="font-medium underline">scentcraft.ai</a>, a startup making AI chatbots for E-commerce.</div>
+          </div>
+          <div className="flex items-start gap-4">
+            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
+            <div className="pb-3"> Been shipping a new MVP every single week for {weeksPassed} weeks.</div>
+          </div>
+          <div className="flex items-start gap-2 pl-12">
             <div><a>1. </a></div>
             <div className="pb-3"> <a href="https://feedby.danigleba.com" target="_blank" className="font-medium underline">Feedby</a>: Filter user feedback from your comment section.</div>
           </div>
-          <div className="flex items-start gap-2 pl-24">
+          <div className="flex items-start gap-2 pl-12">
             <div><a>2. </a></div>
             <div className="pb-3"> <a href="https://plato.danigleba.com" target="_blank" className="font-medium underline">Plato</a>: Find a startup mentor and get to $10k MRR ASAP.</div>
           </div>
-          <div className="flex items-start gap-2 pl-24">
+          <div className="flex items-start gap-2 pl-12">
             <div><a>3. </a></div>
-            <div className="pb-3"> <a href="https://mileto.danigleba.com" target="_blank" className="font-medium underline">Mileto</a>: Snap any STEM problem and get a detailed solution.</div>
+            <div className="pb-3"> <a href="https://mileto.danigleba.com" target="_blank" className="font-medium underline">Mileto</a>: Solve any math, physics, or engineering problem with AI.</div>
+          </div>
+          <div className="flex items-start gap-2 pl-12">
+            <div><a>4. </a></div>
+            <div className="pb-3"> <a href="https://mileto.danigleba.com" target="_blank" className="font-medium">Cornelio</a>: (WIP) Manage your online students & classes without the headaches.</div>
           </div>
           <div className="pt-12 space-y-2">
             <a href="mailto:daniglebapuig@gmail.com">daniglebapuig@gmail.com</a>
