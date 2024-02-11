@@ -47,10 +47,6 @@ export default function Index() {
           </div>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Dropped out of a CS degree at UPC-FIB.</div>
-          </div>
-          <div className="flex items-start gap-4">
-            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
             <div className="pb-3"> Worked as a full-stack developer at <a href="https://scentcraft.ai" target="_blank" className="font-medium underline">scentcraft.ai</a>, a startup making AI chatbots for E-commerce.</div>
           </div>
           <div className="flex items-start gap-4">
