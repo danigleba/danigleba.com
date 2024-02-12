@@ -5,10 +5,6 @@ import { FaSquareXTwitter } from "react-icons/fa6"
 import { FaLinkedin } from "react-icons/fa"
 
 export default function Index() {
-  const specificDate = new Date("2024-01-15")
-  const currentDate = new Date()
-  const timeDiff = currentDate - specificDate
-  const weeksPassed = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 7))
   return (
     <>
       <Head>
@@ -51,7 +47,7 @@ export default function Index() {
           </div>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Been shipping a new MVP every single week for {weeksPassed} weeks.</div>
+            <div className="pb-3"> I've also shipped:</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>1. </a></div>
