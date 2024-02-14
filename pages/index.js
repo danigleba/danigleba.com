@@ -63,6 +63,10 @@ export default function Index() {
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>4. </a></div>
+            <div className="pb-3"> <a href="https://espia.danigleba.com" target="_blank" className="font-medium underline">Espía</a>: (In Spanish) Browser online multiplayer game of spy.</div>
+          </div>
+          <div className="flex items-start gap-2 pl-12">
+            <div><a>5. </a></div>
             <div className="pb-3"> <a className="font-medium">Alba</a>: (WIP) Manage your online students & classes without the headaches.</div>
           </div>
           <div className="pt-12 space-y-2">
