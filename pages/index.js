@@ -30,43 +30,43 @@ export default function Index() {
         {/* Page Title */}
         <title>Dani Gleba</title>
       </Head>
-      <main className="flex justify-center items-start text-[#222222] mt-12 mx-6">
+      <main className="flex justify-center items-start text-[#222222] my-12 mx-6">
         <div className="w-full md:w-2/5 font-light text-base">
           <h2 className="font-semibold text-4xl pb-6">Dani Gleba</h2>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3">Started coding video games at 13.</div>
+            <div className="pb-3">Started coding at 13.</div>
           </div>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Built <a href="https://kualify.es" target="_blank" className="font-medium underline">kualify.es</a> in high school.</div>
+            <div className="pb-3">Got a job at a startup coding AI chatbots at 18.</div>
           </div>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Worked as a full-stack developer at <a href="https://scentcraft.ai" target="_blank" className="font-medium underline">scentcraft.ai</a>, a startup making AI chatbots for E-commerce.</div>
-          </div>
-          <div className="flex items-start gap-4">
-            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> I've also shipped:</div>
+            <div className="pb-3"> Stuff I've shipped:</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>1. </a></div>
-            <div className="pb-3"> <a href="https://feedby.danigleba.com" target="_blank" className="font-medium underline">Feedby</a>: Filter user feedback from your comment section.</div>
+            <div className="pb-3"> <a href="https://kualify.es" target="_blank" className="font-medium underline">Kualify</a>: (In Spanish) Learn valuable & future-proof skills while having fun.</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>2. </a></div>
-            <div className="pb-3"> <a href="https://plato.danigleba.com" target="_blank" className="font-medium underline">Plato</a>: Find a startup mentor and get to $10k MRR ASAP.</div>
+            <div className="pb-3"> <a href="https://feedby.danigleba.com" target="_blank" className="font-medium underline">Feedby</a>: Filter user feedback from your comment section.</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>3. </a></div>
-            <div className="pb-3"> <a href="https://mileto.danigleba.com" target="_blank" className="font-medium underline">Mileto</a>: Solve any math, physics, or engineering problem with AI.</div>
+            <div className="pb-3"> <a href="https://plato.danigleba.com" target="_blank" className="font-medium underline">Plato</a>: Find a startup mentor and get to $10k MRR ASAP.</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>4. </a></div>
-            <div className="pb-3"> <a href="https://espia.danigleba.com" target="_blank" className="font-medium underline">Espía</a>: (In Spanish) Browser online multiplayer game of spy.</div>
+            <div className="pb-3"> <a href="https://mileto.danigleba.com" target="_blank" className="font-medium underline">Mileto</a>: Solve any math, physics, or engineering problem with AI.</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>5. </a></div>
+            <div className="pb-3"> <a href="https://espia.danigleba.com" target="_blank" className="font-medium underline">Espía</a>: (In Spanish) Browser online multiplayer game of spy.</div>
+          </div>
+          <div className="flex items-start gap-2 pl-12">
+            <div><a>6. </a></div>
             <div className="pb-3"> <a className="font-medium">Alba</a>: (WIP) Manage your online students & classes without the headaches.</div>
           </div>
           <div className="pt-12 space-y-2">
