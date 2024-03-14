@@ -33,14 +33,14 @@ export default function Index() {
       <main className="flex justify-center items-start text-[#222222] my-12 mx-6">
         <div className="w-full md:w-2/5 font-light text-base">
           <h2 className="font-semibold text-4xl pb-6">Dani Gleba</h2>
-          <div className="flex items-start gap-4">
+          {/*<div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
             <div className="pb-3">Started coding at 13.</div>
           </div>
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
             <div className="pb-3">Got a job at a startup coding AI chatbots at 18.</div>
-          </div>
+          </div>*/}
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
             <div className="pb-3"> Stuff I've shipped:</div>
