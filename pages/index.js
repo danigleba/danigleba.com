@@ -67,7 +67,7 @@ export default function Index() {
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>6. </a></div>
-            <div className="pb-3"> <a className="font-medium">Alba</a>: (WIP) Manage your online students & classes without the headaches.</div>
+            <div className="pb-3"> <a href="https://waterlesson.com" target="_blank" className="font-medium underline">Waterlesson</a>: Let students book and pay for your online classes automatically.</div>
           </div>
           <div className="pt-12 space-y-2">
             <a href="mailto:daniglebapuig@gmail.com">daniglebapuig@gmail.com</a>
