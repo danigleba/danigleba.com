@@ -43,7 +43,7 @@ export default function Index() {
           </div>*/}
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Stuff I've shipped:</div>
+            <div className="pb-3"> Stuff I've shipped (oldest to newest):</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>1. </a></div>
@@ -67,6 +67,10 @@ export default function Index() {
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>6. </a></div>
+            <div className="pb-3"> <a href="https://quizgame-next.vercel.app/en" target="_blank" className="font-medium underline">Quiz</a>: Browser online multiplayer game of quiz.</div>
+          </div>
+          <div className="flex items-start gap-2 pl-12">
+            <div><a>7. </a></div>
             <div className="pb-3"> <a href="https://waterlesson.com" target="_blank" className="font-medium underline">Waterlesson</a>: Let students book and pay for your online classes automatically.</div>
           </div>
           <div className="pt-12 space-y-2">
