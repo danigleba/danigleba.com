@@ -43,35 +43,36 @@ export default function Index() {
           </div>*/}
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3"> Stuff I've shipped (oldest to newest):</div>
+            <div className="pb-3"> Stuff I've shipped:</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>1. </a></div>
-            <div className="pb-3"> <a href="https://kualify.es" target="_blank" className="font-medium underline">Kualify</a>: (In Spanish) Learn valuable & future-proof skills while having fun.</div>
+            <div className="pb-3"> <a href="https://waterlesson.com" target="_blank" className="font-medium underline">Waterlesson</a>: Let students book and pay for your online classes automatically</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>2. </a></div>
-            <div className="pb-3"> <a href="https://feedby.danigleba.com" target="_blank" className="font-medium underline">Feedby</a>: Filter user feedback from your comment section.</div>
-          </div>
-          <div className="flex items-start gap-2 pl-12">
-            <div><a>3. </a></div>
-            <div className="pb-3"> <a href="https://plato.danigleba.com" target="_blank" className="font-medium underline">Plato</a>: Find a startup mentor and get to $10k MRR ASAP.</div>
+            <div className="pb-3"> <a href="https://feedby.danigleba.com" target="_blank" className="font-medium underline">Feedby</a>: Filter user feedback from your comment section</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>4. </a></div>
-            <div className="pb-3"> <a href="https://mileto.danigleba.com" target="_blank" className="font-medium underline">Mileto</a>: Solve any math, physics, or engineering problem with AI.</div>
+            <div className="pb-3"> <a href="https://mileto.danigleba.com" target="_blank" className="font-medium underline">Mileto</a>: Solve any math, physics, or engineering problem with AI</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
+            <div><a>3. </a></div>
+            <div className="pb-3"> <a href="https://plato.danigleba.com" target="_blank" className="font-medium underline">Plato</a>: Find a startup mentor and get to $10k MRR ASAP</div>
+          </div>
+
+          <div className="flex items-start gap-2 pl-12">
             <div><a>5. </a></div>
-            <div className="pb-3"> <a href="https://spygame-indol.vercel.app" target="_blank" className="font-medium underline">Espía</a>: (In Spanish) Browser online multiplayer game of spy.</div>
+            <div className="pb-3"> <a href="https://spygame-indol.vercel.app" target="_blank" className="font-medium underline">Spy game</a>: (In Spanish) Browser online multiplayer game of spy</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>6. </a></div>
-            <div className="pb-3"> <a href="https://quizgame-next.vercel.app/en" target="_blank" className="font-medium underline">Quiz</a>: Browser online multiplayer game of quiz.</div>
+            <div className="pb-3"> <a href="https://quizgame-next.vercel.app/en" target="_blank" className="font-medium underline">Trivia game</a>: Browser online multiplayer game of trivia</div>
           </div>
           <div className="flex items-start gap-2 pl-12">
             <div><a>7. </a></div>
-            <div className="pb-3"> <a href="https://waterlesson.com" target="_blank" className="font-medium underline">Waterlesson</a>: Let students book and pay for your online classes automatically.</div>
+            <div className="pb-3"> <a href="https://kualify.es" target="_blank" className="font-medium underline">Kualify</a>: (In Spanish) Gamified learning for teens</div>
           </div>
           <div className="pt-12 space-y-2">
             <a href="mailto:daniglebapuig@gmail.com">daniglebapuig@gmail.com</a>
