@@ -1,10 +1,17 @@
 import Head from "next/head"
+import { useRouter } from "next/router"
+import { useEffect } from "react"
 import Link from "next/link"
 import { FaGithubSquare } from "react-icons/fa"
 import { FaSquareXTwitter } from "react-icons/fa6"
 import { FaLinkedin } from "react-icons/fa"
 
 export default function Index() {
+  const router = useRouter()
+
+  useEffect(() => {
+    router.push("https://x.com/danigleba")
+  }, [])
   return (
     <>
       <Head>
@@ -31,16 +38,8 @@ export default function Index() {
         <title>Dani Gleba</title>
       </Head>
       <main className="flex justify-center items-start text-[#222222] my-12 mx-6">
-        <div className="w-full md:w-2/5 font-light text-base">
+        {/*<div className="w-full md:w-2/5 font-light text-base">
           <h2 className="font-semibold text-4xl pb-6">Dani Gleba</h2>
-          {/*<div className="flex items-start gap-4">
-            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3">Started coding at 13.</div>
-          </div>
-          <div className="flex items-start gap-4">
-            <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
-            <div className="pb-3">Got a job at a startup coding AI chatbots at 18.</div>
-          </div>*/}
           <div className="flex items-start gap-4">
             <div className="font-black text-xl flex items-end h-4"><div className="w-1.5 aspect-square rounded-full bg-[#222222]"></div></div>
             <div className="pb-3"> Stuff I've shipped:</div>
@@ -96,7 +95,7 @@ export default function Index() {
               </Link>
             </div>
           </div>
-        </div>
+        </div>*/}
       </main>
     </>
   )
